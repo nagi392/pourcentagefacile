@@ -1,0 +1,111 @@
+Politique de confidentialité
+
+Pourcentage Facile — application Android (com.monstudio.pourcentagefacile)
+
+Éditeur : lakhdar ben
+
+Contact : nagi3921@gmail.com
+
+Dernière mise à jour : 30 octobre 2026
+
+1. En bref
+Pourcentage Facile est une calculatrice de pourcentages (remises, augmentations, TVA, variations, ratios) qui fonctionne sans compte utilisateur, sans inscription et sans collecte de données par l'éditeur. Elle n'a besoin d'aucune autorisation au-delà de l'accès à Internet, utilisé uniquement pour afficher une publicité.
+
+Aucune donnée saisie n'est envoyée à l'éditeur : il n'y a aucun serveur.
+L'historique des calculs reste sur votre appareil et peut être effacé à tout moment.
+Une publicité Google AdMob peut impliquer la lecture de l'identifiant publicitaire de votre appareil par le SDK de Google : c'est expliqué au point 5.
+2. Champ d'application
+La présente politique décrit le traitement des données effectué par l'application Pourcentage Facile, installée depuis Google Play ou tout autre magasin d'applications Android. Elle ne couvre que le fonctionnement de l'application et du SDK publicitaire qu'elle intègre ; le traitement effectué par Google dans le cadre de ses propres services relève de la politique de confidentialité de Google, à laquelle nous renvoyons (point 5).
+
+3. Données traitées par l'application
+3.1 Champs de calcul
+Les valeurs que vous saisissez (montants, taux, pourcentages) sont calculées localement, sur votre appareil. Elles ne sont ni enregistrées ailleurs, ni transmises, ni sauvegardées sur un serveur de l'éditeur (l'éditeur n'en dispose d'aucun).
+
+3.2 Historique des calculs
+Élément	Détail
+Contenu	Libellé du type de calcul, phrase descriptive, résultat, horodatage (ex. « Remise de 20 % sur 10 000 → 8 000 »)
+Où	Fichier de préférences local de l'application (historique.xml), sur votre appareil
+Volume	50 calculs maximum, les plus récents d'abord
+Transmis ?	Non — aucune connexion réseau n'est utilisée pour l'historique
+Effacement	Bouton Effacer dans l'écran Historique
+À la désinstallation	Supprimé avec l'application
+Sauvegarde système	Si la sauvegarde Android de votre appareil est activée (paramètres système), ce fichier peut être inclus dans la sauvegarde de l'appareil gérée par Android. Désactivez cette option dans les paramètres de votre appareil si vous ne souhaitez pas cette sauvegarde.
+Ces données restent sur votre appareil : l'éditeur n'y a aucun accès et n'en reçoit aucune copie.
+
+3.3 Autorisations demandées
+Autorisation	Utilisation réelle
+INTERNET	Chargement de la bannière publicitaire uniquement
+com.google.android.gms.permission.AD_ID	Requise par le SDK publicitaire Google pour lire l'identifiant publicitaire de l'appareil (niveau « normal », sans accès sensible)
+Aucune autre autorisation. L'application ne demande ni contacts, ni calendrier, ni stockage, ni fichiers, ni localisation, ni appareil photo, ni micro, ni téléphone, ni Bluetooth. Elle ne lit aucun fichier du téléphone et n'accède à aucun autre service du système.
+
+4. Fonctionnement hors ligne
+Toutes les fonctions de calcul sont disponibles sans connexion Internet : en mode avion, l'application fonctionne intégralement, seule la publicité ne s'affiche pas.
+
+5. Publicité (Google AdMob)
+5.1 Le service utilisé
+L'affichage de publicités est assuré par Google AdMob, un service de Google LLC, intégré au moyen du SDK Google Mobile Ads (com.google.android.gms:play-services-ads, version 25.5.0). C'est le seul SDK tiers présent dans l'application.
+
+5.2 Données traitées par le SDK publicitaire
+D'après la déclaration officielle de Google pour ce SDK, les catégories de données suivantes sont collectées et partagées automatiquement par le SDK publicitaire — pas par l'éditeur, qui n'y a pas accès :
+
+Catégorie	Exemples
+Identifiants de l'appareil et du compte	Identifiant publicitaire Android (Advertising ID / Ad ID), App Set ID
+Adresse IP	Peut servir à estimer la localisation générale de l'appareil (pays/région)
+Interactions avec les produits	Lancement de l'application, appuis, visionnages d'annonces
+Informations de diagnostic	Temps de démarrage, taux de blocage, consommation d'énergie de l'application et du SDK
+Selon Google, ces données sont utilisées pour la publicité, l'analyse et la prévention de la fraude, et sont chiffrées en transit (TLS). Source : developers.google.com/admob/android/privacy/play-data-disclosure
+
+Ce que l'éditeur collecte de son côté : rien. L'éditeur ne reçoit ni ne stocke l'identifiant publicitaire, ni la localisation, ni l'adresse IP, ni aucune donnée d'usage de l'application : il ne dispose d'aucun serveur et n'intègre aucun outil d'analyse d'audience.
+
+5.3 À quoi servent ces données, et partage
+Elles servent à diffuser et mesurer les annonces, à analyser le fonctionnement du SDK et à lutter contre la fraude publicitaire (clics frauduleux).
+Les annonces sont diffusées par Google ; Google peut partager ces données avec ses partenaires, conformément à sa propre politique.
+Aucune publicité n'est ciblée à partir de données collectées par l'éditeur : celui-ci ne collecte aucune donnée.
+5.4 Vos choix
+Paramètres des annonces Google : adssettings.google.com et myadcenter.google.com (personnalisation, désactivation).
+Politique de confidentialité de Google : policies.google.com/privacy
+Comment Google utilise les informations des sites et applications partenaires (dont AdMob) : policies.google.com/technologies/partner-sites
+Identifiant publicitaire de l'appareil : il peut être retiré ou réinitialisé depuis les paramètres de votre téléphone (Paramètres Android → Confidentialité → Annonces → Supprimer l'identifiant publicitaire ; le libellé varie selon les versions). Procédure officielle : support.google.com/googleplay/android-developer/answer/6048248. Une fois supprimé, les annonces restent affichées mais deviennent moins pertinentes.
+5.5 Consentement dans l'Espace économique européen, au Royaume-Uni et en Suisse
+Pour diffuser des annonces personnalisées dans l'EEE, au Royaume-Uni et en Suisse, Google impose qu'un module de gestion du consentement certifié demande d'abord votre choix. À la date de mise à jour de cette politique, l'application n'intègre pas encore un tel module : aucune demande de consentement n'est donc affichée. Cette mise en conformité est en cours ; le présent paragraphe sera actualisé dès qu'elle sera effective.
+
+En attendant, vos choix globaux sur la personnalisation des annonces se règlent aux adresses indiquées au point 5.4, ainsi que dans les paramètres de confidentialité de votre appareil.
+
+6. Données personnelles et droits
+Conformément au RGPD et à la réglementation locale applicable, vous disposez notamment d'un droit d'accès, de rectification, d'effacement, d'opposition au traitement et de limitation.
+
+Données détenues par l'application (historique local) : vous les contrôlez intégralement depuis l'application — effacez l'historique depuis l'écran Historique, ou désinstallez l'application pour tout supprimer. Aucune copie n'existe chez l'éditeur.
+Données traitées par Google (publicité, point 5) : elles échappent au contrôle de l'éditeur ; exercez vos droits via les paramètres de Google (point 5.4) ou en contactant Google conformément à sa politique de confidentialité.
+Pour toute question relative à cette politique ou à vos droits, écrivez à [À COMPLÉTER : adresse e-mail de contact].
+Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire une réclamation auprès de l'autorité de protection des données compétente (en France, la CNIL : www.cnil.fr).
+
+7. Durée de conservation
+Données	Conservation
+Historique local	Jusqu'à votre effacement manuel, la désinstallation, ou le dépassement de la limite de 50 entrées (les plus anciennes sont alors supprimées automatiquement)
+Sauvegarde Android, si activée	Selon les paramètres de sauvegarde de votre appareil et de Google
+Données publicitaires	Conservées par Google selon la durée indiquée dans la politique de Google
+Données chez l'éditeur	Aucune : l'éditeur ne détient aucune donnée
+8. Sécurité
+Les données de calcul ne quittent pas l'appareil ; il n'existe aucun compte, ni identifiant, ni mot de passe, et aucun serveur de l'éditeur qui pourrait être piraté. Les requêtes publicitaires sont chiffrées en transit par le SDK de Google.
+
+9. Destinataires et transferts
+Le seul destinataire tiers est Google LLC (SDK Google Mobile Ads), qui agit selon sa propre politique de confidentialité. L'application ne contient aucun autre SDK, ni outil d'analyse, ni outil de suivi de crash, ni réseau social, ni service de paiement. Google précise ses éventuels transferts de données hors de votre zone économique dans sa politique : policies.google.com/privacy
+
+10. Enfants
+Pourcentage Facile s'adresse à un public général (calculs scolaires, commerciaux et professionnels) et n'est pas conçu pour les enfants de moins de 13 ans. L'éditeur ne collecte aucune donnée délibérément auprès d'enfants. Si l'application est diffusée dans une section Familles de Google Play, des exigences supplémentaires s'appliquent alors à la publicité, conformément aux politiques de Google.
+
+11. Absence de compte utilisateur
+L'application ne crée aucun compte, ne demande ni nom, ni e-mail, ni mot de passe, ni numéro de téléphone, et ne propose aucune inscription. Il n'y a donc aucune donnée de compte à supprimer : la suppression de l'application supprime l'intégralité des données qu'elle détient sur votre appareil.
+
+12. Liens vers des sites externes
+L'application ne contient aucun lien hypertexte vers des sites tiers, aucune publicité interactive renvoyant vers un site de l'éditeur, et n'ouvre aucun navigateur.
+
+13. Modifications de cette politique
+Toute modification sera publiée sur cette même page, avec une nouvelle date de mise à jour. En cas de modification importante, l'application pourra être mise à jour en conséquence.
+
+14. Contact
+Éditeur : [À COMPLÉTER : nom ou raison sociale]
+E-mail : [À COMPLÉTER : adresse e-mail]
+Application : Pourcentage Facile (com.monstudio.pourcentagefacile)
+
+Politique de confidentialité de Pourcentage Facile — dernière mise à jour : 30 octobre 2026.
